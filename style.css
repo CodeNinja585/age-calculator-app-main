@@ -182,24 +182,29 @@ input:focus {
     .main{                   
         margin-inline: 1rem;
         padding: 1.4rem 0 1.4rem 1.4rem;
-        width: 29rem;
+        width: 24rem;
         background: var(--White);
         border-radius: 1rem 1rem 10rem 1rem;
     }
 
     .style-line{
-     width: 23rem;       
-    }
-    form{
-        
-    }
+     width: 20rem;       
+    }    
     .result{
-        width: 23rem;
+        width: 20rem;
         font-size: calc(var(--fs-900) * 0.75); 
     }
 
+    form{
+        width: 20rem;
+    }
+
+    .flex-box{
+        width: 20rem;
+     }
+
     .flex-item{
-        width: 23rem;
+        width: 20rem;
     }
 
     img{        
