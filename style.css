@@ -190,7 +190,9 @@ input:focus {
     .style-line{
      width: 23rem;       
     }
-
+    form{
+        
+    }
     .result{
         width: 23rem;
         font-size: calc(var(--fs-900) * 0.75); 
