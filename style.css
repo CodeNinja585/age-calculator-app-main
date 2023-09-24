@@ -1,0 +1,184 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+:root{
+    /* # Front-end Style Guide */
+
+    /* The designs were created to the following widths: */
+    --Mobile: 375px;
+    --Desktop: 1440px;
+    /* ### <-------- Font-Color --------> */
+    --clr-primary-hsl-400: hsl(0, 0%, 8%);
+    --clr-primary-hsl-500: hsl(0, 0%, 86%);
+    --clr-secondary-hsl-400: hsl(0, 1%, 44%);
+    --clr-secondary-hsl-500: hsl(0, 0%, 8%)b;
+        
+        
+    --clr-primary-400: hsl(var(--clr-primary-hsl-400));
+    --clr-primary-500: hsl(var(--clr-primary-hsl-500));
+    --clr-secondary-400: hsl(var(--clr-secondary-hsl-400));        
+    /* --gradient-primary: linear-gradient(var(--darkBlue), var(--clr-secondary-hsl-400)); */
+        
+    
+    /* ### Color Primary */
+
+    --Purple: hsl(259, 100%, 65%);
+    --Light-red: hsl(0, 100%, 67%);
+    
+    /* ### Neutral Colors*/    
+    --White: hsl(0, 0%, 100%);
+    --Off-white: hsl(0, 0%, 94%);
+    --Light-grey: hsl(0, 0%, 86%);
+    --Smokey-grey: hsl(0, 1%, 44%);
+    --Off-black: hsl(0, 0%, 8%);
+
+    /* <------- ### Fonts and Typeface -------> */
+
+    /* ### Font-family*/
+    --ff-default: 'Barlow Semi Condensed', sans-serif;
+    --ff-1: 'Hanken Grotesk', sans-serif;
+    --ff-2: 'Overpass', sans-serif;
+    --ff-3: 'Poppins', sans-serif;
+    
+    /* Font-size */
+    --fs-400: 1.125rem;
+    --fs-500: 1.25rem;
+    --fs-600: 1.5rem;
+    --fs-700: 1.75rem;
+    --fs-800: 2rem;
+    --fs-900: 5rem;
+
+    /* Font-weight */
+    --fw-regular: 400;
+    --fw-bold: 700;
+    --fw-black: 800;
+}
+
+body{
+    font-family: var(--ff-default);
+    background: var(--clr-primary-hsl-500);
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.main{        
+    display: grid;
+    gap: 2rem;
+    
+    padding: 3rem 0 3rem 3rem;
+    width: 37rem;
+    background: var(--White);
+    border-radius: 1rem 1rem 10rem 1rem;
+}
+
+form{
+    display: grid;
+    
+    width: 26rem;
+    background-color: var(--White);
+    gap: 2rem;
+}
+
+.flex-box{    
+    width: 26rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-item{    
+    display: flex;
+    flex-direction: column;
+    gap: calc(var(--fs-400) * 0.5);
+}
+
+.flex-item label{
+    font-family: var(--ff-1);
+    color: var(--clr-secondary-hsl-400);
+    font-size: var(--fs-300);
+    font-weight: var(--fw-bold);
+}
+
+
+.middle-design{    
+    display: flex;     
+}
+
+.style-line{  
+    position: relative;      
+    width: 30rem;
+    height: calc(var(--fs-400) * 0.02);    
+    background-color: var(--Light-grey);
+}
+
+img{        
+    position: absolute;
+    left: 83%;
+    top: 25%;        
+    border-radius: 50%;
+    background: var(--Purple);
+    padding: 1rem;
+    cursor: pointer;
+    cursor: url('./assets/images/image-cursor.png'), auto;
+}
+
+img:hover{
+    background-color: var(--clr-primary-hsl-400);
+}
+   
+.flex-item input {
+    width: 8rem;
+    text-align: center;
+    box-shadow: none;
+    border: none;
+    border: 1px solid;
+    border-color: var(--clr-primary-hsl-500);            
+
+    padding: calc(var(--fs-400)* 0.5) 0;        
+    font-size: var(--fs-600);
+    border-radius: calc(var(--fs-400) * 0.4);
+    cursor: pointer;
+    cursor: url('./assets/images/image-cursor.png'), auto;
+
+    color: black;
+    font-weight: var(--fw-bold);
+}
+
+input:focus {
+    outline: none !important;
+    border-color: var(--Purple);    
+}
+  
+
+.result{    
+    width: 30rem;
+    font-family: var(--ff-1);
+    font-size: calc(var(--fs-900) * 0.85);
+    font-weight: var(--fw-black);
+    line-height: var(--fs-900);    
+}
+
+.result span{
+    color: var(--Purple);
+}
+
+/* In your CSS file or within a <style> block in your HTML */
+.custom-cursor {
+    cursor: url('./assets/images/image-cursor.png'), auto;
+}
+
+@media (max-width: 375px) {
+    img{        
+        position: absolute;
+        left: 3%;
+        top: 25%;        
+    }   
+}
