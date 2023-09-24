@@ -177,7 +177,7 @@ input:focus {
 
 @media (max-width: 600px) {
     .main{                   
-        margin-inline: 2rem;
+        margin-inline: 3rem;
         padding: 1.4rem 0 1.4rem 1.4rem;
         width: 29rem;
         background: var(--White);
