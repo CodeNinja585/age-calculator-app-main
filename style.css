@@ -142,7 +142,7 @@ img:hover{
     border: 1px solid;
     border-color: var(--clr-primary-hsl-500);            
 
-    padding: calc(var(--fs-400)* 0.5) 0;        
+    padding: calc(var(--fs-400)* 0.5);      
     font-size: var(--fs-600);
     border-radius: calc(var(--fs-400) * 0.4);
     cursor: pointer;
@@ -191,7 +191,12 @@ input:focus {
     }
     img{        
         position: absolute;
-        left: 33%;
-        top: 25%;        
+        left: 40%;
+        top: 22%;        
     }   
+    .flex-item input{
+        padding: calc(var(--fs-400)* 0.3);
+        padding-left: calc(var(--fs-400)* 0.03);
+        padding-right: calc(var(--fs-400)* 0.03);
+    }
 }
