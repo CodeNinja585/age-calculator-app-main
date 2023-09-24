@@ -70,7 +70,7 @@ body{
     transform: translate(-50%,-50%);
 }
 
-.main{        
+.main{            
     display: grid;
     gap: 2rem;
     
@@ -80,10 +80,8 @@ body{
     border-radius: 1rem 1rem 10rem 1rem;
 }
 
-form{
-    display: grid;
-    
-    width: 26rem;
+form{                
+    display: grid;    
     background-color: var(--White);
     gap: 2rem;
 }
@@ -94,7 +92,7 @@ form{
     justify-content: space-between;
 }
 
-.flex-item{    
+.flex-item{            
     display: flex;
     flex-direction: column;
     gap: calc(var(--fs-400) * 0.5);
@@ -142,7 +140,7 @@ img:hover{
     border: 1px solid;
     border-color: var(--clr-primary-hsl-500);            
 
-    padding: calc(var(--fs-400)* 0.5);      
+    padding: calc(var(--fs-400)* 0.5);        
     font-size: var(--fs-600);
     border-radius: calc(var(--fs-400) * 0.4);
     cursor: pointer;
