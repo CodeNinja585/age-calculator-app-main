@@ -175,10 +175,23 @@ input:focus {
     cursor: url('./assets/images/image-cursor.png'), auto;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 600px) {
+    .main{                   
+        margin-inline: 2rem;
+        padding: 1.4rem 0 1.4rem 1.4rem;
+        width: 29rem;
+        background: var(--White);
+        border-radius: 1rem 1rem 10rem 1rem;
+    }        
+    .style-line{
+     width: 24rem;       
+    }
+    .result{
+        width: 24rem;
+    }
     img{        
         position: absolute;
-        left: 3%;
+        left: 33%;
         top: 25%;        
     }   
 }
