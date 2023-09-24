@@ -196,7 +196,7 @@ input:focus {
     .result{
         width: 20rem;        
         font-size: calc(var(--fs-900) * 0.5); 
-        line-height: calc(var(--fs-900) * 0.5);
+        line-height: calc(var(--fs-900) * 0.6);
     }    
 
     .flex-box{
