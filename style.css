@@ -191,6 +191,7 @@ input:focus {
 
     form{
         gap: 4rem;        
+        margin-bottom: 1.5rem;
     }        
 
     .result{
