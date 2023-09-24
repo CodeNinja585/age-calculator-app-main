@@ -194,8 +194,9 @@ input:focus {
     }        
 
     .result{
-        width: 20rem;
-        font-size: calc(var(--fs-900) * 0.75); 
+        width: 20rem;        
+        font-size: calc(var(--fs-900) * 0.5); 
+        line-height: calc(var(--fs-900) * 0.5);
     }    
 
     .flex-box{
@@ -208,7 +209,7 @@ input:focus {
     img{        
         position: absolute;
         left: 40%;
-        top: 26%;        
+        top: 35%;        
     }   
     .flex-item input{
         width: 5rem;
