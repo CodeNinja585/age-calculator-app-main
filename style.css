@@ -176,25 +176,37 @@ input:focus {
 }
 
 @media (max-width: 600px) {
+    body{        
+        place-items: center;
+    }
     .main{                   
-        margin-inline: 3rem;
+        margin-inline: 1rem;
         padding: 1.4rem 0 1.4rem 1.4rem;
         width: 29rem;
         background: var(--White);
         border-radius: 1rem 1rem 10rem 1rem;
-    }        
+    }
+
     .style-line{
-     width: 24rem;       
+     width: 23rem;       
     }
+
     .result{
-        width: 24rem;
+        width: 23rem;
+        font-size: calc(var(--fs-900) * 0.75); 
     }
+
+    .flex-item{
+        width: 23rem;
+    }
+
     img{        
         position: absolute;
         left: 40%;
         top: 22%;        
     }   
     .flex-item input{
+        width: 5rem;
         padding: calc(var(--fs-400)* 0.3);
         padding-left: calc(var(--fs-400)* 0.03);
         padding-right: calc(var(--fs-400)* 0.03);
